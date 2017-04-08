@@ -10,7 +10,7 @@ end
 
 
 def days 
-day = 76
+day = 79
 while day < 1000
 day += 1
 z = rand
