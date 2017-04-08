@@ -22,6 +22,7 @@ else
 z = "i love you so much"
 end
 $client.update("Day #{day}: #{z}")
+  sleep 86400
 
 
 end 
