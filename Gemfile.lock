@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'twitter'
-gem 'heroku' 
+gem 'twitter' '6.1.0'
+gem 'heroku' '3.99.1'
