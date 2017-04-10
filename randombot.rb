@@ -9,7 +9,7 @@ $client = Twitter::REST::Client.new do |config|
 end
 
 
-def random
+
 
 x = rand
 if x < 0.1
@@ -37,7 +37,4 @@ end
 $client.update("#{b}.")
 
 
-end
 
-
-random
