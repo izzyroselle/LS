@@ -33,10 +33,10 @@ elsif 0.8 <= x  && x < 0.9
 b = "I love how clever and hard-working you are"
 else
 b = "You are the best thing that's ever been mine"
-
+end
 $client.update("#{b}.")
 
-end
+
 end
 
 
