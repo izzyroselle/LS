@@ -10,7 +10,7 @@ end
 
 
 def random
-1000.times do
+
 x = rand
 if x < 0.1
   b = "I love your kindness"
@@ -38,6 +38,6 @@ $client.update("#{b}.")
 
 end
 end
-end
+
 
 random
