@@ -11,32 +11,29 @@ end
 
 def random
 
-x = rand
-if x < 0.1
-  b = "I love your kindness"
-elsif 0.1 <= x && x < 0.2
-  b = "I love how you care about the world"
-elsif 0.2  <= x && x < 0.3
- b = "I love your beautiful face and your fluffy hair"
-elsif 0.3  <= x  && x < 0.4 
-b = "I feel at home around you"
-elsif 0.4 <= x  && x < 0.5
-
-b = "I love your thoughtfulness"
-elsif 0.5 <= x  && x < 0.6
-b = "I love how you always make me laugh"
-elsif 0.6 <= x  && x < 0.7
-b = "I love the honesty and trust we share"
-elsif 0.7 <= x  && x < 0.8
-b = "I've admired you since we met"
-elsif 0.8 <= x  && x < 0.9
-b = "I love how clever and hard-working you are"
-else
-b = "You are the best thing that's ever been mine"
-
-$client.update("#{b}.")
-
-end
+  x = rand
+  if x < 0.1
+    b = "I love your kindness"
+  elsif x < 0.2
+    b = "I love how you care about the world"
+  elsif x < 0.3
+   	b = "I love your beautiful face and your fluffy hair"
+  elsif x < 0.4 
+    b = "I feel at home around you"
+  elsif x < 0.5
+    b = "I love your thoughtfulness"
+  elsif x < 0.6
+    b = "I love how you always make me laugh"
+  elsif x < 0.7
+    b = "I love the honesty and trust we share"
+  elsif x < 0.8
+    b = "I've admired you since we met"
+  elsif x < 0.9
+    b = "I love how clever and hard-working you are"
+  else
+    b = "You are the best thing that's ever been mine"
+  end
+  $client.update("#{b}.")
 end
 
 random
