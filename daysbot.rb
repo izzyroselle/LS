@@ -1,4 +1,5 @@
 
+
 require 'twitter'
 
 $client = Twitter::REST::Client.new do |config|
@@ -9,10 +10,6 @@ $client = Twitter::REST::Client.new do |config|
 end
 
 
-def days 
-day = 79
-while day < 1000
-day += 1
 z = rand
 if z < 0.3 
 z = "I love you"
@@ -21,11 +18,7 @@ z = "EL <3 LS"
 else
 z = "i love you so much"
 end
+
+day = (Date.today - Date.new(2017,1,19) + 1).to_i
+
 $client.update("Day #{day}: #{z}")
-  sleep 86400
-
-
-end 
-end
-
-days
